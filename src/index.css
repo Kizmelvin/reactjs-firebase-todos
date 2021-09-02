@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Monda:wght@700&family=Poppins:wght@600&display=swap");
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://res.cloudinary.com/kizmelvin/image/upload/v1583532894/dark_city_m3xhc0.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Poppins", serif;
+  z-index: 0;
+}
+form {
+  background-color: darkred;
+  padding: 1rem;
+}
+form .title {
+  color: white;
+}
+form input {
+  font-size: 1.6rem;
+  height: 2.5rem;
+  width: 25rem;
+}
+form button {
+  font-size: 1.6rem;
+  height: 2.5rem;
+  margin-left: 0.5rem;
+}
+ul {
+  list-style: none;
+  width: 50%;
+}
+li {
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: gainsboro;
+  margin-top: 0.2rem;
+}
