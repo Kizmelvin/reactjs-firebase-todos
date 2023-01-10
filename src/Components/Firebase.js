@@ -13,15 +13,3 @@ var firebaseConfig = {
 const FireBase = firebase.initializeApp(firebaseConfig);
 export default FireBase;
 
-// const getTodos = () => {
-//   const fireGet = FireBase.firestore().collection("todos");
-//   fireGet.onSnapshot((savedTodos) => {
-//     const todoItem = [];
-//     savedTodos.forEach((doc) => {
-//       todoItem.push(doc.data());
-//     });
-
-//     setTodos(todoItem);
-//     // console.log(todos);
-//   });
-// };
